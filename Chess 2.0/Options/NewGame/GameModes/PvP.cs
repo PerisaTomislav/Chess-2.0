@@ -14,7 +14,7 @@ namespace Chess_2._0.Options.NewGame.GameModes
         internal static void StartPvpGame()
         {
 
-            
+            /*
             Console.Clear();
             Board board = new Board();
             int turnCounter = 0;
@@ -26,7 +26,7 @@ namespace Chess_2._0.Options.NewGame.GameModes
                 {
                     do
                     {
-
+                        
                         //Izračunavanje mogućih poteza
                         Metode.OčistiPotezeFigura();
                         Metode.IzračunajMogućePoteze(Strana.Bijeli);
